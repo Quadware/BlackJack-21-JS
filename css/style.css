@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-block {
+    border: 1px solid brown;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    width: 710px;
+    height: 650px;
+    background-color: antiquewhite;
+}
+
+.card {
+    width: 100px;
+    height: 140px;
+    margin: 15px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.dealer-cards,
+.player-cards {
+    background-color: darkgreen;
+    border-radius: 3px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: white;
+}
+
+.message {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+h2 {
+    text-align: left;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

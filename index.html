@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Card game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-block">
+            <h2>Dealer:</h2>
+            <div class="dealer-cards">
+                <!--card images-->
+                <img class="card">
+                <img class="card">
+            </div>
+            <h1 class="dealer-sum hidden">0</h1>
+            <h2>Player:</h2>
+            <div class="player-cards">
+                <!--card images-->
+                <img class="card">
+                <img class="card">
+            </div>
+            <h1 class="player-sum hidden">0</h1>
+            <div>
+                <button class="btn new-game-btn">new game</button>
+                <button class="btn take-card-btn">hit</button>
+                <button class="btn stand-btn">stand</button>
+                <label for="" class="cards-in-deck">Deck:</label>
+                <span class="cards-amount"></span>
+            </div>
+            <div class="message">Welcome to BlackJack game! Click "New Game" to Begin.</div>
+            <div class="error"></div>
+            <button class="btn reshuffle-btn hidden">reshuffle</button>
+        </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+
+</body>
+
+</html>
